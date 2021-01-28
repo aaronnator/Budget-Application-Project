@@ -1,0 +1,74 @@
+.navb {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(48, 48, 48);
+    opacity: 0.99;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.navb a{
+    display: block;
+    padding: 20px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ccc;
+}
+.navb a:hover{
+    color: #fff;
+    transition: 0.4s;
+    background-color: rgba(185, 179, 179, 0.664);
+}
+.navb a.active{
+    background-color: rgba(185, 179, 179,0.664);
+    color: white;
+}
+.navb .close{
+    position: absolute;
+    top: 0;
+    right:1px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.slide a{
+    color: #fff;
+    font-size: 35px;
+}
+#content{
+    padding: 20px;
+    transition: margin-left 0.5s;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+h1{
+    color: red;
+}
+body{ /* Image source: http://139.59.41.148/financial-blog/wp-content/uploads/2017/06/money-growth-investment-seed-ss-1920.jpg */
+    background: url(../pic/tool2.jpg) center;
+    overflow-x: hidden;
+}
+
+
+body{ /* Image source: https://www.federaldisability.com/wp-content/uploads/2015/12/pay-day-written-on-a-sticky-note-on-a-calendar-1.jpg */
+    background: url(..//pic/tool3.jpg) center;
+}
+#calc{
+    width: 600px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background: #0a2036ec;
+    text-align:center;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+label,h1{
+    color: white;
+}

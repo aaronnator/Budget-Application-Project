@@ -1,0 +1,7 @@
+Make sure to create "user-database" database first
+
+CREATE TABLE IF NOT EXISTS `users` (  
+  `username` varchar(20) NOT NULL,  
+  `password` varchar(256) NOT NULL,  
+  PRIMARY KEY (`username`)  
+) ENGINE=InnoDB DEFAULT CHARSET=latin1; 
